@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Secret Diary</string>
+    <string name="btnSave">Save</string>
+    <string name="DD">Dear Diary...</string>
+    <string name="textview">TextView</string>
+    <string name="btnUndo">Undo</string>
+    <string name="can">no</string>
+    <string name="Sd">Secret Diary</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="log_in">Log In</string>
+</resources>

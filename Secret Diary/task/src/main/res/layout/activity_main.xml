@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.hyperskill.secretdiary.MainActivity">
+
+    <EditText
+        android:id="@+id/etNewWriting"
+        android:layout_width="399dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:hint="@string/DD"
+        android:inputType="text"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="89dp"
+        android:text="@string/btnSave"
+        app:layout_constraintBottom_toTopOf="@+id/tvDiary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewWriting" />
+    <Button
+        android:id="@+id/btnUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/btnUndo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewWriting" />
+
+    <TextView
+        android:id="@+id/tvDiary"
+        android:layout_width="361dp"
+        android:layout_height="474dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
